@@ -1,0 +1,115 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+background:#f4f4f4;
+}
+
+header{
+background:#003366;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+nav{
+margin-top:10px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:15px;
+font-size:18px;
+}
+
+.hero{
+text-align:center;
+padding:100px;
+}
+
+.hero h2{
+font-size:40px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:20px;
+margin-bottom:30px;
+}
+
+.btn{
+background:#007bff;
+color:white;
+padding:15px 35px;
+text-decoration:none;
+border-radius:5px;
+}
+
+.form-box{
+width:400px;
+background:white;
+margin:80px auto;
+padding:30px;
+border-radius:10px;
+box-shadow:0 0 10px gray;
+}
+
+.form-box h2{
+text-align:center;
+margin-bottom:20px;
+}
+
+input{
+width:100%;
+padding:12px;
+margin:10px 0;
+border:1px solid gray;
+border-radius:5px;
+}
+
+button{
+width:100%;
+padding:12px;
+background:#007bff;
+color:white;
+border:none;
+font-size:18px;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:#0056b3;
+}
+
+.dashboard{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+padding:50px;
+}
+
+.card{
+width:220px;
+background:white;
+padding:30px;
+text-align:center;
+border-radius:10px;
+box-shadow:0 0 10px gray;
+}
+
+.card h2{
+margin-bottom:15px;
+}
+
+.card p{
+font-size:28px;
+color:green;
+font-weight:bold;
+}
