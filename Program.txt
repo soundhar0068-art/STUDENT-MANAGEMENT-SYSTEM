@@ -1,0 +1,6 @@
+// Program Access Function
+export function showMessage() {
+
+    alert("Program Accessed Successfully 🚀");
+
+}
